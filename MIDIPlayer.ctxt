@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MIDIPlayer
+comment1.params=file
+comment1.target=void\ playMIDI(java.io.File)
+comment1.text=\ Takes\ a\ MIDI\ file\ and\ then\ gets\ the\ notes\ and\ their\ timestamps\r\n\ from\ the\ file.\ The\ method\ then\ plays\ the\ sequence.\r\n\ \r\n\ @param\ file\ -\ the\ MIDI\ file\ to\ be\ played\r\n
+comment2.params=notes\ ticks
+comment2.target=void\ playSequence(int[],\ long[])
+comment2.text=\ Implementation\ of\ the\ MIDI\ playback\ system.\ The\ method\ takes\ the\r\n\ timestamp\ (ticks)\ of\ the\ next\ note.\ When\ the\ time\ counter\ reaches\ that\r\n\ tick,\ the\ next\ note\ is\ triggered.\ Because\ ticks\ are\ counted\ milliseconds\r\n\ and\ a\ quarter\ note\ is\ 480\ ticks,\ the\ system\ will\ always\ play\ at\ 125\ bpm.\r\n\ \r\n\ @param\ notes\ -\ an\ int[]\ containing\ the\ mapping\ value\ of\ the\ MIDI\ note\r\n\ @param\ ticks\ -\ an\ array\ containing\ the\ timestamp\ (ticks)\ at\ which\ to\ play\ the\ note\r\n
+numComments=3

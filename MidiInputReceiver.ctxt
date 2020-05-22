@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MidiInputReceiver
+comment0.text=\r\n\ \ Modified\ implementaion\ of\ a\ class\r\n\ \ retrieved\ from\ Stack\ Overflow\r\n
+comment1.params=name
+comment1.target=MidiInputReceiver(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ the\ reciever.\r\n\ \r\n\ @param\ name\ -\ the\ name\ of\ the\ receiver\r\n
+comment2.params=msg\ timeStamp
+comment2.target=void\ send(javax.sound.midi.MidiMessage,\ long)
+comment2.text=\r\n\ \ Receives\ the\ MIDIMessage,\ checks\ that\ it\ is\ valid,\ and\ plays\ it.\r\n\ \ \r\n\ \ @param\ msg\ -\ the\ MIDIMessage\ received\ from\ the\ keyboard\r\n\ \ @param\ timeStamp\ -\ note\ used\ in\ implementation\r\n
+comment3.params=
+comment3.target=void\ close()
+comment3.text=\r\n\ Closes\ the\ reciever\r\n
+numComments=4

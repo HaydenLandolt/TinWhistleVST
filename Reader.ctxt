@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Reader
+comment1.params=sequence
+comment1.target=int[]\ getNotes(javax.sound.midi.Sequence)
+comment1.text=\r\n\ \ Reads\ through\ the\ MIDI\ sequence\ and\ puts\ the\ MIDI\ key\ into\ an\ int[].\r\n\ \ \r\n\ \ @param\ sequence\ -\ the\ MIDI\ sequence\ being\ played.\r\n\ \ @return\ the\ int[]\ cointaining\ the\ MIDI\ keys.\r\n
+comment2.params=sequence
+comment2.target=long[]\ getTicks(javax.sound.midi.Sequence)
+comment2.text=\r\n\ \ Reads\ through\ the\ MIDI\ sequence\ and\ puts\ the\ MIDI\ ticks\ into\ an\ int[].\r\n\ \ \r\n\ \ @param\ sequence\ -\ the\ MIDI\ sequence\ being\ played.\r\n\ \ @return\ the\ long[]\ cointaining\ the\ MIDI\ ticks.\r\n
+comment3.params=message
+comment3.target=int\ noteFromKeyboard(javax.sound.midi.MidiMessage)
+comment3.text=\r\n\ \ Takes\ the\ note\ played\ by\ an\ external\ MIDI\ keyboard\ and\ makes\ sure\ it\ \r\n\ \ is\ valid.\ Will\ also\ transpose\ the\ MIDI\ note\ into\ the\ proper\ key.\r\n\ \ \r\n\ \ @param\ message\ -\ the\ MIDIMessage\ being\ sent\ by\ the\ external\ keyboard.\r\n\ \ @return\ the\ MIDI\ key.\r\n
+comment4.params=note
+comment4.target=boolean\ validNote(int)
+comment4.text=\r\n\ Checks\ to\ make\ sure\ that\ the\ note\ is\ playable\ by\ the\ Diatonic\ Tin\ Whistle.\r\n\ \r\n\ @param\ note\ -\ the\ MIDI\ note\r\n\ @return\ returns\ true\ if\ the\ note\ is\ playable\r\n
+numComments=5

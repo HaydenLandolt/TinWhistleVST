@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MIDIHandler
+comment0.text=\r\n\ Modified\ implementation\ of\ a\ class\r\n\ retrieved\ from\ Stack\ Overflow\r\n
+comment1.params=
+comment1.target=void\ MIDIHandler()
+comment1.text=\r\n\ \ Opens\ the\ MIDI\ keyboard\ plugged\ into\ the\ computer\r\n
+numComments=2
